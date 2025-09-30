@@ -57,8 +57,7 @@ Las tareas de este PBI se completarán en la segunda parte del sprint, ya que de
   - 1 Dev Frontend (React, manejo de estados, UI/UX).  
   - 1 Dev Backend (APIs, validación, autenticación).  
 
-
-Herramienta de Comunicación y Colaboración
+# Herramienta de Comunicación y Colaboración
 Para un sprint tan corto y dinámico, la herramienta debe ser rápida, flexible y centralizar la información.
 Slack o Microsoft Teams: Cualquiera de estas dos sería la opción ideal.
 Canales de comunicación: Crearía canales dedicados para diferentes propósitos, lo que permite mantener las conversaciones organizadas.
