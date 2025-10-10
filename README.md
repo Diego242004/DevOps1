@@ -1,68 +1,81 @@
-# Sprint 1 – Documentación  
-*Caso de Estudio: Delivery de Pastelería*
+SweetDelights - E-commerce de Pastelería
 
-#  Objetivo del Sprint  
-El objetivo de este sprint es *implementar las funcionalidades básicas del sistema de Delivery de la pastelería, enfocándonos en el diseño, planificacion ,login y autenticación, y listado inicial de pastelerías y productos.  
+SweetDelights es una tienda en línea de pasteles y postres artesanales, diseñada para brindar una experiencia de compra fácil, rápida y deliciosa. Los usuarios pueden explorar un catálogo de productos, personalizar pedidos y recibir dulces en la puerta de su casa.
 
-Esto permitirá a los usuarios:  
-- Registrarse en la plataforma.  
-- Iniciar sesión de manera segura.  
-- Visualizar el catálogo de pastelerías y productos disponibles.
-- Un diseño de cada apartado
+🎯 Descripción
 
-#Product Backlog – Historias seleccionadas para Sprint 1  
+SweetDelights es una plataforma e-commerce desarrollada para una pastelería que desea expandir su presencia en línea. Ofrece una interfaz intuitiva donde los clientes pueden:
 
-| ID   | Historia de Usuario                  | Story Points | Prioridad | Costo Estimado (USD) |
-|------|--------------------------------------|--------------|-----------|-----------------------|
-| PBI-1 | Registro de usuarios                 | 5            | Alta      | 5350.92              |
-| PBI-2 | Login y autenticación                | 5            | Alta      | 5350.92              |
-| PBI-3 | Listado de pastelerías y productos   | 8            | Alta      | 8561.47              |
-| *TOTAL (Sprint 1)* | | *18* | | *19263.32* |
+Ver el catálogo de productos (pasteles, cupcakes, galletas, etc.)
 
-*TOTAL Story Points (S1):* 18  
-*Costo del Sprint (estimado):* 19,263.32 USD  
- 
-# Sprint Backlog – Tareas  
+Filtrar por categorías, precios o ingredientes
 
-# PBI-1: Registro de usuarios  
-| ID Tarea | Subtarea / Actividad         | Responsable   | Estimación (hrs) | Fecha Fin |
-|----------|------------------------------|---------------|------------------|-----------|
-| 1000     | Diseño: Página de Registro   | Dev Frontend  | 4                | 09/09/25 |
-| 950      | Crear componente Registro    | Dev Frontend  | 6                | 10/09/25 |
-| 900      | Usar useState para campos    | Dev Frontend  | 2                | 10/09/25 |
-| 850      | Validar datos de entrada     | Dev Backend   | 3                | 10/09/25 |
-| 800      | Enviar datos al backend      | Dev Backend   | 3                | 11/09/25 |
-| 750      | Manejar respuesta de la API  | Dev Backend   | 4                | 11/09/25 |
+Personalizar productos (tamaño, sabor, dedicatoria, etc.)
 
-# PBI-2: Login y autenticación  
-| ID Tarea | Subtarea / Actividad              | Responsable   | Estimación (hrs) | Fecha Fin |
-|----------|-----------------------------------|---------------|------------------|-----------|
-| 700      | Diseño: Página de Login           | Dev Frontend  | 5                | 12/09/25 |
-| 650      | Crear componente Login            | Dev Frontend  | 3                | 12/09/25 |
-| 600      | Usar useState para email y pass   | Dev Frontend  | 2                | 13/09/25 |
-| 550      | Llamar a la API de login          | Dev Backend   | 3                | 13/09/25 |
-| 500      | Manejar respuesta de la API       | Dev Backend   | 4                | 14/09/25 |
-| 450      | Guardar token en localStorage     | Dev Frontend  | 2                | 14/09/25 |
-| 400      | Configurar Context API para sesión| Dev Backend   | 4                | 15/09/25 |
+Agregar al carrito y realizar pagos seguros
 
-# PBI-3: Listado de pastelerías y productos  
-Las tareas de este PBI se completarán en la segunda parte del sprint, ya que dependen del registro y login previos.  
+Programar envíos o recoger en tienda
+
+🧁 Características principales
+
+🎂 Catálogo con fotos y descripciones detalladas de cada producto
+
+🔍 Búsqueda y filtros por tipo de postre, precios y promociones
+
+🛒 Carrito de compras y resumen del pedido
+
+💳 Pasarela de pagos segura (integración con Stripe o MercadoPago)
+
+🚚 Gestión de pedidos con seguimiento de entrega
+
+📱 Diseño responsive para móviles y tablets
+
+🔐 Panel de administrador (gestión de productos, pedidos y clientes)
+
+🛠️ Tecnologías utilizadas
+
+Frontend: React / Vue / HTML + CSS + JavaScript
+
+Backend: Node.js + Express / Laravel / Django
+
+Base de datos: MongoDB / MySQL / PostgreSQL
+
+Autenticación: JWT / OAuth
+
+Pasarela de pagos: Stripe / PayPal / MercadoPago
+
+Despliegue: Vercel / Netlify / Heroku / Docker
+
+🚀 Cómo ejecutar el proyecto localmente
+
+Clona el repositorio:
+
+git clone https://github.com/tu-usuario/sweetdelights.git
+cd sweetdelights
 
 
-# Resumen del Sprint  
+Instala las dependencias:
 
-- *Duración del Sprint:* 1 semana (08/09/25 – 15/09/25).  
-- *Total de horas estimadas:* 43 h.  
-- *Equipo de desarrollo:*  
-  - 1 Dev Frontend (React, manejo de estados, UI/UX).  
-  - 1 Dev Backend (APIs, validación, autenticación).  
+npm install
 
-# Herramienta de Comunicación y Colaboración
-Para un sprint tan corto y dinámico, la herramienta debe ser rápida, flexible y centralizar la información.
-Slack o Microsoft Teams: Cualquiera de estas dos sería la opción ideal.
-Canales de comunicación: Crearía canales dedicados para diferentes propósitos, lo que permite mantener las conversaciones organizadas.
-#general: Anuncios importantes y discusiones generales del equipo.
-#daily-standup: Para que cada miembro publique sus actualizaciones diarias, lo que facilita el seguimiento incluso sin una reunión física.
-#incidencias-bugs: Para reportar y discutir errores o problemas técnicos que surjan.
 
-#diseño-ux: Para compartir prototipos, wireframes y obtener feedback rápido sobre el diseño.
+Configura las variables de entorno en un archivo .env
+
+Inicia el servidor de desarrollo:
+
+npm run dev
+
+
+Abre en tu navegador:
+
+http://localhost:3000
+
+📦 Próximas funcionalidades
+
+Sistema de puntos para clientes frecuentes
+
+Reseñas y calificaciones por producto
+
+Integración con redes sociales
+
+Notificaciones por WhatsApp y correo electrónico
