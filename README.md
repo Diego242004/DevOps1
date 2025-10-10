@@ -2,7 +2,7 @@ SweetDelights - E-commerce de Pastelería
 
 SweetDelights es una tienda en línea de pasteles y postres artesanales, diseñada para brindar una experiencia de compra fácil, rápida y deliciosa. Los usuarios pueden explorar un catálogo de productos, personalizar pedidos y recibir dulces en la puerta de su casa.
 
-🎯 Descripción
+ Descripción
 
 SweetDelights es una plataforma e-commerce desarrollada para una pastelería que desea expandir su presencia en línea. Ofrece una interfaz intuitiva donde los clientes pueden:
 
